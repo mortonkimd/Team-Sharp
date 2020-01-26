@@ -114,7 +114,7 @@ namespace Bistro_Shelves
                         {
                             command.CommandText = "insert into BistroShelvesCountRecords (ProductCode, ProductName, Cases, Units, CountDate) " +
                                 "values('" + productLine2DArray[i, 3] + "','" + productLine2DArray[i, 1] + "','" + productLine2DArray[i, 0] +
-                                "','" + productLine2DArray[i, 2] + "','" + dtpCountDate.Value + "')";
+                                "','" + productLine2DArray[i, 2] + "','" + dateTimePicker.Value + "')";
                             command.ExecuteNonQuery();
                         }
 
