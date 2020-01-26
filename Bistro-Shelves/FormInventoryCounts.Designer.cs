@@ -241,7 +241,6 @@
             this.tbCases31 = new System.Windows.Forms.TextBox();
             this.lbPN31 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.dtpCountDate = new System.Windows.Forms.DateTimePicker();
             this.gbProductLine2 = new System.Windows.Forms.GroupBox();
             this.lblCases = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -252,6 +251,7 @@
             this.label90 = new System.Windows.Forms.Label();
             this.gbProductLine1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.groupBox30.SuspendLayout();
             this.groupBox12.SuspendLayout();
             this.groupBox28.SuspendLayout();
@@ -2448,18 +2448,6 @@
             this.groupBox6.TabIndex = 114;
             this.groupBox6.TabStop = false;
             // 
-            // dtpCountDate
-            // 
-            this.dtpCountDate.AllowDrop = true;
-            this.dtpCountDate.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpCountDate.Location = new System.Drawing.Point(507, 159);
-            this.dtpCountDate.MaxDate = new System.DateTime(2999, 12, 31, 0, 0, 0, 0);
-            this.dtpCountDate.MinDate = new System.DateTime(2019, 1, 1, 0, 0, 0, 0);
-            this.dtpCountDate.Name = "dtpCountDate";
-            this.dtpCountDate.Size = new System.Drawing.Size(299, 29);
-            this.dtpCountDate.TabIndex = 105;
-            this.dtpCountDate.Value = new System.DateTime(2020, 1, 25, 0, 0, 0, 0);
-            // 
             // gbProductLine2
             // 
             this.gbProductLine2.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -2514,7 +2502,7 @@
             // 
             this.lblCountDate.AutoSize = true;
             this.lblCountDate.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCountDate.Location = new System.Drawing.Point(362, 159);
+            this.lblCountDate.Location = new System.Drawing.Point(339, 138);
             this.lblCountDate.Name = "lblCountDate";
             this.lblCountDate.Size = new System.Drawing.Size(139, 28);
             this.lblCountDate.TabIndex = 104;
@@ -2549,7 +2537,7 @@
             // 
             this.label90.AutoSize = true;
             this.label90.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label90.Location = new System.Drawing.Point(247, 74);
+            this.label90.Location = new System.Drawing.Point(262, 71);
             this.label90.Name = "label90";
             this.label90.Size = new System.Drawing.Size(585, 42);
             this.label90.TabIndex = 103;
@@ -2580,12 +2568,21 @@
             this.label2.TabIndex = 107;
             this.label2.Text = "Product Name";
             // 
+            // dateTimePicker
+            // 
+            this.dateTimePicker.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker.Location = new System.Drawing.Point(484, 138);
+            this.dateTimePicker.Name = "dateTimePicker";
+            this.dateTimePicker.Size = new System.Drawing.Size(297, 29);
+            this.dateTimePicker.TabIndex = 155;
+            // 
             // FormInventoryCounts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1143, 804);
+            this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox30);
             this.Controls.Add(this.groupBox12);
@@ -2627,7 +2624,6 @@
             this.Controls.Add(this.groupBox37);
             this.Controls.Add(this.groupBox38);
             this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.dtpCountDate);
             this.Controls.Add(this.gbProductLine2);
             this.Controls.Add(this.lblCases);
             this.Controls.Add(this.groupBox3);
@@ -2946,7 +2942,6 @@
         private System.Windows.Forms.TextBox tbCases31;
         private System.Windows.Forms.Label lbPN31;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.DateTimePicker dtpCountDate;
         private System.Windows.Forms.GroupBox gbProductLine2;
         private System.Windows.Forms.Label lblCases;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -2957,6 +2952,7 @@
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.GroupBox gbProductLine1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker;
     }
 }
 
