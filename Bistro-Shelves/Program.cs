@@ -16,7 +16,7 @@ namespace Bistro_Shelves
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormInventoryCounts());
+            Application.Run(new Form1());
         }
     }
 }

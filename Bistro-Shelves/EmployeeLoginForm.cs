@@ -36,21 +36,30 @@ namespace Bistro_Shelves
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);
+
+            
             if (dt.Rows.Count > 0)
 
+                {
+                this.Hide();
+                FormInventoryCounts f2 = new FormInventoryCounts();
+                f2.ShowDialog();           
+                 }
+             else
             {
-                MessageBox.Show("Welcome to Bistro Shelves");
-            }
-            else
-            {
-                MessageBox.Show("Invalid Login. Check username and password.");
+            MessageBox.Show("Invalid Login. Check username and password.");
 
-            }
+             }
             con.Close();
         }
         private void passwordtextBox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void cancelbutton_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

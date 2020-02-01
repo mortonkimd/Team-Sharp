@@ -41,6 +41,7 @@
             this.passwordtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordtextBox.Location = new System.Drawing.Point(393, 169);
             this.passwordtextBox.Name = "passwordtextBox";
+            this.passwordtextBox.PasswordChar = '*';
             this.passwordtextBox.Size = new System.Drawing.Size(157, 26);
             this.passwordtextBox.TabIndex = 11;
             // 
@@ -92,8 +93,9 @@
             this.cancelbutton.TabIndex = 6;
             this.cancelbutton.Text = "Cancel ";
             this.cancelbutton.UseVisualStyleBackColor = true;
+            this.cancelbutton.Click += new System.EventHandler(this.cancelbutton_Click_1);
             // 
-            // EmployeeLoginForm
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -104,7 +106,7 @@
             this.Controls.Add(this.usernamelabel);
             this.Controls.Add(this.loginbutton);
             this.Controls.Add(this.cancelbutton);
-            this.Name = "EmployeeLoginForm";
+            this.Name = "Form1";
             this.Text = "EmployeeLoginForm";
             this.ResumeLayout(false);
             this.PerformLayout();
