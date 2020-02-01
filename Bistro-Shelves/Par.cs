@@ -1,20 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Bistro_Shelves
 {
-    public partial class FormInventoryCounts : Form
+    public partial class Par : Form
     {
-        public FormInventoryCounts()
+        public Par()
         {
             InitializeComponent();
+            SqlConnection connection = new SqlConnection(@"Data Source =DESKTOP-PKLTJ42\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security = True");
+            SqlCommand command = new SqlCommand();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source =SIKBeEISHAS-PC\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security = True");
-        SqlCommand command = new SqlCommand();
-
-        private void recordCounts()
+        private void recordCounts(SqlConnection connection, SqlCommand command)
         {
             string[,] productLine2DArray = new string[43, 4]
             {
@@ -118,7 +124,7 @@ namespace Bistro_Shelves
                             command.ExecuteNonQuery();
                         }
 
-                        MessageBox.Show("Inventory Counts Saved");
+                        MessageBox.Show("Par Levels Saved");
                         connection.Close();
                     }
                     catch (Exception ex)
@@ -129,10 +135,6 @@ namespace Bistro_Shelves
             }
 
         }
-
-        private void btRecordCounts_Click(object sender, EventArgs e)
-        {
-            recordCounts();
-        }
     }
+
 }
