@@ -1,0 +1,12 @@
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\bin\Debug\Bistro-Shelves.exe.config
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\bin\Debug\Bistro-Shelves.exe
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\bin\Debug\Bistro-Shelves.pdb
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro-Shelves.csprojAssemblyReference.cache
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro_Shelves.Form1.resources
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro_Shelves.FormInventoryCounts.resources
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro_Shelves.Properties.Resources.resources
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro-Shelves.csproj.GenerateResource.cache
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro-Shelves.exe
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro-Shelves.pdb
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro_Shelves.Par.resources
+C:\Users\Hlin8\Source\Repos\mortonkimd\Team-Sharp\Bistro-Shelves\obj\Debug\Bistro_Shelves.History.resources
