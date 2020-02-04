@@ -11,7 +11,7 @@ namespace Bistro_Shelves
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source =SIKBeEISHAS-PC\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security = True");
+        SqlConnection connection = new SqlConnection(@"Data Source =SIKEISHAS-PC\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security = True");
         SqlCommand command = new SqlCommand();
 
         private void recordCounts()
@@ -129,10 +129,24 @@ namespace Bistro_Shelves
             }
 
         }
-
-        private void btRecordCounts_Click(object sender, EventArgs e)
+                
+        private void btRecordCounts_Click_1(object sender, EventArgs e)
         {
             recordCounts();
+        }
+
+        private void btNavSetPar1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SetParLevels f3 = new SetParLevels();
+            f3.ShowDialog();
+        }
+
+        private void btNavSetPar2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SetParLevels f3 = new SetParLevels();
+            f3.ShowDialog();
         }
     }
 }
