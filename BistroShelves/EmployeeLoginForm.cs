@@ -25,13 +25,15 @@ namespace Bistro_Shelves
             this.Close();
         }
 
+        internal static void show()
+        {
+            throw new NotImplementedException();
+        }
+
         private void loginbutton_Click(object sender, EventArgs e)
         {
-            //Kim's Connection:
-            //SqlConnection con = new SqlConnection();
-            //con.ConnectionString = @"Data Source=DESKTOP-28THE6N\MSSQLSERVER2017;Initial Catalog=Northwind;Integrated Security=True";
-            
-            SqlConnection con = new SqlConnection(@"Data Source =SIKEISHAS-PC\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security = True");
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = @"Data Source=DESKTOP-28THE6N\MSSQLSERVER2017;Initial Catalog=Northwind;Integrated Security=True";
             con.Open();
             string username = usernametextBox.Text;
             string password = passwordtextBox.Text;
@@ -55,7 +57,11 @@ namespace Bistro_Shelves
              }
             con.Close();
         }
-        
+        private void passwordtextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void cancelbutton_Click_1(object sender, EventArgs e)
         {
             this.Close();
