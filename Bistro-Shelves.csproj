@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="btrecordcounts.cs" />
     <Compile Include="EmployeeLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EmployeeLoginForm.Designer.cs">
       <DependentUpon>EmployeeLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
     </Compile>
     <Compile Include="FormInventoryCounts.cs">
       <SubType>Form</SubType>
@@ -58,13 +65,25 @@
     <Compile Include="FormInventoryCounts.Designer.cs">
       <DependentUpon>FormInventoryCounts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Par.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Par.Designer.cs">
+      <DependentUpon>Par.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EmployeeLoginForm.resx">
       <DependentUpon>EmployeeLoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormInventoryCounts.resx">
       <DependentUpon>FormInventoryCounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Par.resx">
+      <DependentUpon>Par.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

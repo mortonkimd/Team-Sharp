@@ -25,6 +25,11 @@ namespace Bistro_Shelves
             this.Close();
         }
 
+        internal static void show()
+        {
+            throw new NotImplementedException();
+        }
+
         private void loginbutton_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
