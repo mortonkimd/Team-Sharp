@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bistro-Shelves", "Bistro-Shelves.csproj", "{F364F18D-EF45-4C43-B874-760F3D33DBA2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Bistro Shelves Setup", "..\Bistro Shelves Setup\Bistro Shelves Setup.vdproj", "{C8595561-6F29-4DA5-9C41-3B14D8E2CE1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F364F18D-EF45-4C43-B874-760F3D33DBA2}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F364F18D-EF45-4C43-B874-760F3D33DBA2}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F364F18D-EF45-4C43-B874-760F3D33DBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F364F18D-EF45-4C43-B874-760F3D33DBA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8595561-6F29-4DA5-9C41-3B14D8E2CE1B}.Debug|Any CPU.ActiveCfg = Debug
+		{C8595561-6F29-4DA5-9C41-3B14D8E2CE1B}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB75BCDE-36DF-402E-9F40-BA61CDA8C910}
+	EndGlobalSection
+EndGlobal

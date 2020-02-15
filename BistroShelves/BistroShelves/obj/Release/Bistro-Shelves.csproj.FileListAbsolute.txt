@@ -1,0 +1,12 @@
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\bin\Release\Bistro-Shelves.exe.config
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\bin\Release\Bistro-Shelves.exe
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\bin\Release\Bistro-Shelves.pdb
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro_Shelves.CountsHistory.resources
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro_Shelves.Form1.resources
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro_Shelves.EstimateOrders.resources
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro_Shelves.FormInventoryCounts.resources
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro_Shelves.Properties.Resources.resources
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro_Shelves.SetParLevels.resources
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro-Shelves.csproj.GenerateResource.cache
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro-Shelves.exe
+C:\Users\svmus\source\repos\BistroShelves\BistroShelves\obj\Release\Bistro-Shelves.pdb
